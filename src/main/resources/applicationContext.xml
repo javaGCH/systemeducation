@@ -56,6 +56,7 @@
         <aop:advisor advice-ref="txAdvice" pointcut-ref="pointcut"/>
     </aop:config>
 
+
     <context:component-scan base-package="cn.beijing.ssfh.aop"/>
     <context:component-scan base-package="cn.beijing.ssfh.services"/>
     <aop:aspectj-autoproxy/>
